@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-import EditorsChoice from "@components/editors-choice";
-import Article from "@components/article";
-import ReviewBox from "@components/review-box";
-import Group from "@components/group";
-import Product from "@components/product";
-import Button from "@components/button";
+import EditorsChoice from "@bit/farahnazihah.female-daily-component.editors-choice";
+import Article from "@bit/farahnazihah.female-daily-component.article";
+import ReviewBox from "@bit/farahnazihah.female-daily-component.review-box";
+import Group from "@bit/farahnazihah.female-daily-component.group";
+import Product from "@bit/farahnazihah.female-daily-component.product";
+import Button from "@bit/farahnazihah.female-daily-component.button";
 
 import Section from "@/components/Section";
 import Navbar from "@/components/Navbar.js";
