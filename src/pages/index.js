@@ -1,15 +1,17 @@
+import { useEffect, useState } from "react";
+import Image from "next/image";
+
+import EditorsChoice from "@components/editors-choice";
+import Article from "@components/article";
+import ReviewBox from "@components/review-box";
+import Group from "@components/group";
+import Product from "@components/product";
+import Button from "@components/button";
+
 import Section from "@/components/Section";
 import Navbar from "@/components/Navbar.js";
-import EditorsChoice from "library/EditorsChoice";
-import Article from "library/Article";
-import { useEffect, useState } from "react";
-import ReviewBox from "library/ReviewBox";
-import Group from "library/Group";
-import Product from "library/Product";
-import { trending, logoBrand } from "./api/data";
-import Image from "next/image";
-import Button from "library/Button";
 import Footer from "@/components/Footer";
+import { trending, logoBrand } from "./api/data";
 
 const API_URL = "https://virtserver.swaggerhub.com/hqms/FDN-WP/0.1/wp";
 
@@ -50,9 +52,7 @@ export default function Home() {
       // 4. Setting *dogImage* to the image url that we received from the response above
       .then((res) => setData(res));
     {
-      data["editors choice"]?.map((content, index) =>
-        console.log(content.product)
-      );
+      console.log(data);
     }
   }, []);
 

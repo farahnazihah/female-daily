@@ -15,11 +15,23 @@
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^4.7.1",
+    "@bit/farahnazihah.female-daily-component.article": "file:./components/article",
+    "@bit/farahnazihah.female-daily-component.button": "file:./components/button",
+    "@bit/farahnazihah.female-daily-component.editors-choice": "file:./components/editors-choice",
+    "@bit/farahnazihah.female-daily-component.group": "file:./components/group",
+    "@bit/farahnazihah.female-daily-component.product": "file:./components/product",
+    "@bit/farahnazihah.female-daily-component.rating": "file:./components/rating",
+    "@bit/farahnazihah.female-daily-component.review-box": "file:./components/review-box"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }
