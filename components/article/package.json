@@ -1,0 +1,22 @@
+{
+  "name": "@bit/farahnazihah.female-daily-component.article",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/farahnazihah/female-daily-component/article",
+  "main": "dist/Article.js",
+  "componentId": {
+    "scope": "farahnazihah.female-daily-component",
+    "name": "article",
+    "version": "0.0.1"
+  },
+  "dependencies": {
+    "next": "13.1.6"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@2.0.0"
+    }
+  }
+}

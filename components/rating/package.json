@@ -1,0 +1,22 @@
+{
+  "name": "@bit/farahnazihah.female-daily-component.rating",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/farahnazihah/female-daily-component/rating",
+  "main": "dist/Rating.js",
+  "componentId": {
+    "scope": "farahnazihah.female-daily-component",
+    "name": "rating",
+    "version": "0.0.1"
+  },
+  "dependencies": {
+    "react-icons": "^4.7.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@2.0.0"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@bit/farahnazihah.female-daily-component.review-box",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/farahnazihah/female-daily-component/review-box",
+  "main": "dist/ReviewBox.js",
+  "componentId": {
+    "scope": "farahnazihah.female-daily-component",
+    "name": "review-box",
+    "version": "0.0.1"
+  },
+  "dependencies": {
+    "next": "13.1.6",
+    "@bit/farahnazihah.female-daily-component.rating": "file:../rating"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@2.0.0"
+    }
+  }
+}

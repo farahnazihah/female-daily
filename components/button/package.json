@@ -1,0 +1,20 @@
+{
+  "name": "@bit/farahnazihah.female-daily-component.button",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/farahnazihah/female-daily-component/button",
+  "main": "dist/Button.js",
+  "componentId": {
+    "scope": "farahnazihah.female-daily-component",
+    "name": "button",
+    "version": "0.0.1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@2.0.0"
+    }
+  }
+}

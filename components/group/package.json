@@ -1,0 +1,23 @@
+{
+  "name": "@bit/farahnazihah.female-daily-component.group",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/farahnazihah/female-daily-component/group",
+  "main": "dist/Group.js",
+  "componentId": {
+    "scope": "farahnazihah.female-daily-component",
+    "name": "group",
+    "version": "0.0.1"
+  },
+  "dependencies": {
+    "next": "13.1.6",
+    "react-icons": "^4.7.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@2.0.0"
+    }
+  }
+}
