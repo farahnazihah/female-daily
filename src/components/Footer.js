@@ -1,4 +1,4 @@
-import Button from "library/Button";
+import Button from "@bit/farahnazihah.female-daily-component.button";
 import Image from "next/image";
 
 export default function Footer() {

@@ -1,4 +1,4 @@
-import EditorsChoice from "library/EditorsChoice";
+import EditorsChoice from "@bit/farahnazihah.female-daily-component.editors-choice";
 import Link from "next/link";
 import { AiOutlineRight } from "react-icons/ai";
 

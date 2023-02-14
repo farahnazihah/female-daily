@@ -1,7 +1,7 @@
 import { HiMenu } from "react-icons/hi";
 import { SlUserFemale } from "react-icons/sl";
 import Image from "next/image";
-import Button from "library/Button";
+import Button from "@bit/farahnazihah.female-daily-component.button";
 
 function SearchBar() {
   const src =
