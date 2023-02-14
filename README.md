@@ -1,13 +1,4 @@
-This projects is a part of Female Network Technical Test.
-
-### Description
-
-Project ini adalah application project.
-Beberapa Note yang perlu diketahui:
-
-- project ini menggunakan Next.js dan tailwind
-- component (Task poin B.a.) dipublish dengan [bit.dev](https://bit.cloud/farahnazihah), namun saya belum familiar jadi masih setengah manual.
-- karena saya merasa belum adanya kebutuhan global state, saya tidak mengimplementasikannya dan fokus ke task lain.
+This projects is a part of Female Daily Network Technical Test.
 
 ### Running development server
 
